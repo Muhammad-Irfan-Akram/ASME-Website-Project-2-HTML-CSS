@@ -1,8 +1,0 @@
-@font-face {
-    font-family: Raleway;
-    src: url(Fonts/Raleway);
-}
-.text {
-    display: flex;
-    justify-content: space-around;
-}

@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+}
+.container{
+    display: flex;
+    height:100vh;
+}
+.block-1{
+    
+    width:50%;
+    background-color: #292a2d;
+    color:#73b0f0;
+    
+    }
+    .block-1 p{
+        margin-top: 40vh;
+        margin-left: 10vh;
+        margin-right: 10vh;
+        font-size: 36px;;
+
+    }
+    .block-2{
+    width:45%;
+    margin-left: auto;
+    background: url(images.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+    .block-2 .Trivia-Music{
+    margin-top: 10%;
+    }
+    .block-2 .questions{
+        margin-top: 20%;
+    }
+.block-2 .Timer{
+    position: absolute;
+    bottom: 0;
+}
+.Trivia-questions button{
+    background-color: #73b0f0;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #64b5f6;
+
+}
