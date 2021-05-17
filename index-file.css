@@ -67,6 +67,6 @@ body{
     border-radius: 5px;
     box-shadow: 0 0 5px #64b5f6;
     font-family: 'Raleway', sans-serif;
-    text-emphasis-color: black;
+    font-weight: bolder;
 }
 
