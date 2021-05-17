@@ -1,10 +1,12 @@
 body{
     margin:0px;
 }
+
 .container{
     display: flex;
     height:100vh;
 }
+
 .block-1{
     
     width:50%;
@@ -17,7 +19,10 @@ body{
         margin-left: 10vh;
         margin-right: 10vh;
         font-size: 36px;;
+    }
 
+    .welcome-text {
+        font-family: 'Raleway', sans-serif;
     }
     .block-2{
     width:45%;
@@ -26,21 +31,42 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     }
+    .R-Text {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .Aks {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .R-N {
+        font-family: 'Raleway', sans-serif;  
+    }
     .block-2 .Trivia-Music{
     margin-top: 10%;
     }
+
     .block-2 .questions{
         margin-top: 20%;
     }
+
 .block-2 .Timer{
     position: absolute;
     bottom: 0;
 }
+
+.Trivia-questions button {
+    transition-property: all;
+    text-decoration-color: black;
+}
+
 .Trivia-questions button{
     background-color: #73b0f0;
     padding: 20px 30px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 7px #64b5f6;
-
+    box-shadow: 0 0 5px #64b5f6;
+    font-family: 'Raleway', sans-serif;
+    text-emphasis-color: black;
 }
+
